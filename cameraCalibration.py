@@ -58,9 +58,12 @@ ret, mtx, dist, rvecs, tvecs = cv2.calibrateCamera(objpoints, imgpoints, gray.sh
 
 print("Camera matrix : \n")
 print(mtx)
+
 print("dist : \n")
 print(dist)
+
 print("rvecs : \n")
 print(rvecs)
+
 print("tvecs : \n")
 print(tvecs)
